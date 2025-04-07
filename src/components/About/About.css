@@ -1,0 +1,114 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(to bottom, #B415FF, #DF8908);
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 100px;
+  }
+  
+  .timeline-icon {
+    position: absolute;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #B415FF, #DF8908);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 0 4px rgba(180, 21, 255, 0.2);
+  }
+  
+  .timeline-content {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-content h3 {
+    color: #B415FF;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .timeline-content h4 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .timeline-content p, .timeline-content li {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  .timeline-content ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .timeline-content li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline-container::before {
+      left: 30px;
+    }
+    
+    .timeline-item {
+      padding-left: 70px;
+    }
+    
+    .timeline-icon {
+      left: 10px;
+    }
+  }

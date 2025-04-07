@@ -1,0 +1,110 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--hero-bg, #1F0016);
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: clamp(2.5rem, 5vw, 5.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  .hero-title-gradient {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+  }
+  
+  .hero-title {
+    display: block;
+  }
+  
+  .hero-description {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .hero-button {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .hero-button-primary {
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero-button-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .hero-button-primary:hover,
+  .hero-button-primary:focus {
+    border-color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(223, 137, 8, 0.3);
+    outline: none;
+  }
+  
+  .hero-button-secondary:hover,
+  .hero-button-secondary:focus {
+    border-color: #B415FF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(180, 21, 255, 0.3);
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 2rem 1rem;
+      min-height: auto;
+      padding-top: 6rem;
+    }
+  
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .hero-button {
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
