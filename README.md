@@ -4,11 +4,7 @@ Welcome to my personal portfolio! This web application was built to showcase my 
 
 ## 🌟 Overview
 
-This portfolio contains a curated collection of my best work across different domains including:
-
-- 📱 **Android Applications**: Built with Java and Android Studio.
-- 📊 **Data Analysis Projects**: Real-world datasets, EDA, and visualization.
-- 🎨 **Frontend Work**: Beautifully designed UI to present projects clearly and responsively.
+Welcome to my professional portfolio website! This project showcases my skills, projects, and professional journey as a frontend developer. Built with React.js, this responsive portfolio highlights my technical abilities and design aesthetic.
 
 ## 🔧 Tech Stack
 
