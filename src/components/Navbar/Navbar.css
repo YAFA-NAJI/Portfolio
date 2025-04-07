@@ -43,22 +43,22 @@
 }
 
 .nav-connect {
-  padding: 14px 32px; /* حجم أصغر */
-  border-radius: 40px; /* زوايا أقل استدارة */
+  padding: 14px 32px; 
+  border-radius: 40px; 
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-  font-size: 18px; /* خط أصغر */
+  font-size: 18px; 
   cursor: pointer;
-  transition: all 0.3s ease; /* انتقال أكثر سلاسة */
+  transition: all 0.3s ease; 
   border: none;
   color: white;
   font-weight: 500;
-  letter-spacing: 0.5px; /* تباعد أحرف أنيق */
+  letter-spacing: 0.5px; 
 }
 
 .nav-connect:hover,
 .nav-connect:focus {
-  transform: scale(1.03); /* تكبير أقل */
-  box-shadow: 0 3px 10px rgba(218, 124, 37, 0.3); /* ظل أخف */
+  transform: scale(1.03); 
+  box-shadow: 0 3px 10px rgba(218, 124, 37, 0.3); 
   outline: none;
 }
 
