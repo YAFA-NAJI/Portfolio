@@ -4,7 +4,7 @@ Welcome to my professional portfolio website! This project showcases my skills, 
 
 ## 🚀 Live Deployment
 
-[![Visit Portfolio](https://img.shields.io/badge/Visit-My_Portfolio-8A2BE2?style=for-the-badge&logo=vercel)](https://vercel.com/yafas-projects/portfolio)
+[![Visit Portfolio](https://img.shields.io/badge/Visit-My_Portfolio-8A2BE2?style=for-the-badge&logo=vercel)](https://portfolio-yafa.vercel.app/)
 
 ## 🔧 Tech Stack
 
