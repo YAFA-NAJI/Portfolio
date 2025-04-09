@@ -100,15 +100,15 @@
   }
   
   @media (max-width: 768px) {
-    .timeline-container::before {
-      left: 30px;
+    .about-title img {
+      width: 100px;
+      right: 10px;
+      bottom: -10px;
     }
-    
-    .timeline-item {
-      padding-left: 70px;
-    }
-    
-    .timeline-icon {
-      left: 10px;
+    .about-title h1 {
+      font-size: 2rem;
+      padding: 0 15px;
+      text-align: center;
     }
   }
+  
