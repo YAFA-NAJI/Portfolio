@@ -134,7 +134,6 @@
     height: 16px;
 }
 
-/* تحسينات للشاشات المتوسطة */
 @media (min-width: 600px) {
     .mywork {
         margin: 60px 40px;
@@ -156,7 +155,6 @@
         font-size: 14px;
     }
 }
-
 
 @media (min-width: 992px) {
     .mywork {
@@ -229,15 +227,15 @@
     }
     
     .mywork-title h1 {
-      font-size: 2rem;
-      padding: 0;
-      margin-bottom: 20px;
+        font-size: 2rem;
+        padding: 0 15px;
+        text-align: center;;
     }
     
     .mywork-title img {
-      width: 80px;
-      right: 5px;
-      bottom: -5px;
+        width: 100px;
+        right: 10px;
+        bottom: -10px;
     }
     
     .mywork-container {
