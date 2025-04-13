@@ -1,14 +1,16 @@
 import quizApp from '../assets/quizApp.png'
 import HomePage from '../assets/HomePage.png'
 import EvModels from '../assets/EvModels.png'
+import github from '../assets/github.png'
+import travel from '../assets/travel.png'
 
 const mywork_data = [
   {
-    w_img: quizApp, 
-    github_link: "https://github.com/YAFA-NAJI/AndroidSampleQiuz",
-    title: "Android Sample Qiuz",
-    desc: "My project is an interactive Android application developed using Java and Android Studio. It provides an enjoyable educational experience for users through a multiple-choice quiz game. The goal of the game is to test the user's knowledge in a simple and fun way.",
-    imageStyle: "tall"
+    w_img: github, 
+    github_link: "https://github.com/YAFA-NAJI/Github-Profile-Finder/tree/main?tab=readme-ov-file",
+    title: "Github Profile Finder",
+    desc: "GitHub Profile Finder is a simple JavaScript web app that lets users search for GitHub profiles by username. It displays profile info and recent repositories using the GitHub API.",
+    imageStyle: "wide"
   },
   {
     w_img: HomePage, 
@@ -18,10 +20,10 @@ const mywork_data = [
     imageStyle: "tall"
   },
   {
-    w_img: EvModels, 
-    github_link: "https://github.com/YAFA-NAJI/Electric-Vehicle-Population-Data-Analysis-Data-Cleaning-EDA-and-Visualizations",
-    title: "Electric Vehicle Population Data Analysis",
-    desc: "The objective of this assignment is to analyze a real-world dataset, focusing on data preprocessing, exploratory data analysis (EDA), and effectively communicating insights.",
+    w_img: travel, 
+    github_link: "https://github.com/YAFA-NAJI/Travel-App",
+    title: "Travel App",
+    desc: "A beautiful and responsive React-based travel website showcasing the most visited travel destinations around the world. Built with modern UI/UX practices and smooth animations using AOS (Animate On Scroll).",
     imageStyle: "wide" ,
   
 },
