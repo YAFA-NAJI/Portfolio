@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Hero = () => {
   const handleResumeClick = () => {
     // Open the PDF file in a new tab
-    window.open('https://drive.google.com/file/d/1F2Lx5EMMgTaidR5C9Pq1L-n7E814gSV9/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1V_aMw329sP7IYGMul56FEEE_I0DA4tlG/view?usp=sharing', '_blank');
   };
 
   return (
